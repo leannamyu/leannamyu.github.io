@@ -1,0 +1,178 @@
+body {
+	margin: 0px;
+	font-family: 'Montserrat', sans-serif;
+	background-color: #7DB5E6;
+}
+
+#carousel-container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: 3;
+	transform: translate(-50%, -50%);
+	background-color: grey;
+	height: 450px;
+	width: 450px;
+	overflow: hidden;
+}
+
+#carousel-strip {
+	transition: 0.4s;
+	position: absolute;
+	left: 0;
+	display: flex;
+}
+
+.carousel-section {
+	height: 450px;
+	width: 450px;
+	position: relative;
+}
+
+.carousel-section img {
+	width: 450px;
+}
+
+#left, #right {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	cursor: pointer;
+	z-index: 3;
+	padding: 20px;
+	font-size: 48px;
+	color: white;
+}
+
+#left {
+	left: calc(50% - 50vh);
+}
+
+#right {
+	right: calc(50% - 50vh);
+}
+
+#close {
+	color: white;
+	font: 36px/100% arial, sans-serif;
+  position: absolute;
+	right: 20px;
+	text-decoration: none;
+	text-shadow: 0 1px 0 #fff;
+	top: 20px;
+	z-index: 3;
+}
+
+#overlay {
+	background: rgba(0, 0, 0, 0.2);
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	z-index: 2;
+	top: 0px;
+	left: 0px;
+}
+
+body, html {
+	margin: 0 auto;
+	position: relative;
+}
+
+.item {
+	height: 200px;
+	width: 200px;
+	margin-right: 5px;
+	margin-left: 5px;
+	margin-top: 130px;
+}
+
+.row {
+	margin-top: 100px;
+}
+
+.item:hover {
+	opacity: 1;
+	transition: 0.2s;
+}
+
+.item {
+	cursor: pointer;
+}
+
+#content {
+	width: 500px;
+	height: 100vh;
+	background: #f4f4f4;
+	margin: 0 auto;
+	position: relative;
+}
+
+#header {
+	position: relative;
+	top: 0px;
+	width: 100%;
+	height: 100px;
+	padding: 10px 0px;
+}
+
+.row {
+	width: 100%;
+	height: 120px;
+	text-align: center;
+}
+
+.item {
+	position: relative;
+	background-color: rgb(255, 255, 255);
+	display: inline-block;
+	opacity: 0.9;
+	overflow: hidden;
+}
+
+img {
+	height: 100%;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+#title {
+	position: absolute;
+	margin-top: 50px;
+	color: rgb(255, 128, 139);
+	font-size: 40pt;
+	text-align: right;
+	right: 10%;
+}
+
+.button {
+	position: absolute;
+	font-size: 1.1em;
+	color: rgb(254, 255, 252);
+	background: none;
+	border: none;
+	margin: 0;
+	padding: 20px;
+	text-align: center;
+	transition: 0.2s;
+}
+
+#fashion {
+	left: 25%;
+	bottom: 92%;
+}
+
+#travel {
+	left: 18%;
+	bottom: 92%;
+}
+
+#aboutme2 {
+	left: 8%;
+	bottom: 92%;
+}
+
+#home {
+	left: 1%;
+	bottom: 92%;
+}
